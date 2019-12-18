@@ -6,10 +6,10 @@ tree = ChristmasTree(pwm=True)
 
 try:
     leds = tree.leds
-    for led in leds:
-        led.pulse()
-        sleep(random.uniform(0, 3))
     while True:
-        sleep(.2)
+        for led in leds:
+            led.off()
+            sleep(random.uniform(0, 3))
+            led.pulse()
 except:
     tree.close()
