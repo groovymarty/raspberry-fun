@@ -1,0 +1,12 @@
+[Unit]
+Description=Run all Snowman effects
+
+[Service]
+Type=simple
+User=pi
+WorkingDirectory=/home/pi/raspberry-fun
+ExecStart=/home/pi/raspberry-fun/run_man_all.sh
+
+[Install]
+WantedBy=multi-user.target
+
