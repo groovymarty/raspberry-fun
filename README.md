@@ -12,7 +12,9 @@ Sample programs for https://thepihut.com/products/christmas-tree-programmable-ki
 * sparkle.py - Randomly toggles all LEDs on tree
 * glow.py - Uses PWM to glow LEDs on and off, filling tree from bottom to top
 
-Based on sample code found at https://github.com/modmypi/Programmable-Xmas-Tree
+Based on sample code found at https://github.com/modmypi/Programmable-Xmas-Tree, especially
+class ChristmasTree that lays out all the I/O devices on the board.  I copied this module
+to my repo, and wrote similar ones for Snowman and Fish Dish.
 
 Here are the commmands to install Programmable-Xmas-Tree (optional):
 * cd /home/pi
@@ -24,6 +26,14 @@ Sample programs for https://thepihut.com/products/ryanteck-snowpi-the-gpio-snowm
 * snowtest.py - Test program from https://thepihut.com/blogs/raspberry-pi-tutorials/ryanteck-snowpi-test-program
 * wiggle.py - Rapidly alternates left and right sides, and blinks eyes even faster
 * spin.py - Spins body LEDs while toggling eyes and nose
+
+Class Snowman lays out all the I/O devices on the board/
+
+## Fish Dish
+
+Sample programs for https://thepihut.com/products/fish-dish-gpio-led-buzzer-board
+* fishtest.sh - Test program from https://pastebin.com/8cnxXRNT
+* fishbump.sh - Binks LEDs in a pattern that changes when you push the button
 
 ## Services to run Christmas Tree and Snowman sample programs
 
