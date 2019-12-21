@@ -35,6 +35,8 @@ Sample programs for https://thepihut.com/products/fish-dish-gpio-led-buzzer-boar
 * fishtest.py - Test program from https://pastebin.com/8cnxXRNT
 * fishbump.py - Binks LEDs in a pattern that changes when you push the button
 
+Class FishDish lays out all the I/O devices on the board.
+
 ## Services to run Christmas Tree and Snowman sample programs
 
 You can install services to run the Christmas tree and Snowman programs automatically at startup.
