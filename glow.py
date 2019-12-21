@@ -11,5 +11,6 @@ try:
             led.off()
             sleep(random.uniform(0, 3))
             led.pulse()
-except:
+except Exception as e:
     tree.close()
+    raise e

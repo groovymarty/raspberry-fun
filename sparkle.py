@@ -11,5 +11,6 @@ try:
         i = random.randint(0, n-1)
         leds[i].toggle()
         sleep(.2)
-except:
+except Exception as e:
     tree.close()
+    raise e

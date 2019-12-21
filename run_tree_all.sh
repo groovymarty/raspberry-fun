@@ -1,10 +1,15 @@
 #!/bin/bash
 
 while true; do
-    timeout 15 python ../Programmable-Xmas-Tree/ants.py
-    timeout 15 python ../Programmable-Xmas-Tree/alt.py
-    timeout 15 python ../Programmable-Xmas-Tree/random_leds.py
-    timeout 60 python sparkle.py
-    timeout 60 python glow.py
+    timeout --foreground 15 python ../Programmable-Xmas-Tree/ants.py
+    if [ $? -ne 124 ]; then break; fi
+    timeout --foreground 15 python ../Programmable-Xmas-Tree/alt.py
+    if [ $? -ne 124 ]; then break; fi
+    timeout --foreground 15 python ../Programmable-Xmas-Tree/random_leds.py
+    if [ $? -ne 124 ]; then break; fi
+    timeout --foreground 60 python sparkle.py
+    if [ $? -ne 124 ]; then break; fi
+    timeout --foreground 60 python glow.py
+    if [ $? -ne 124 ]; then break; fi
 done
 

@@ -1,6 +1,5 @@
 from snowman import Snowman
 from time import sleep
-import random
 
 man = Snowman()
 
@@ -20,5 +19,6 @@ try:
         ring[count].toggle()
         count = (count + 1) % 6
         sleep(.1)
-except:
+except Exception as e:
     man.close()
+    raise e
