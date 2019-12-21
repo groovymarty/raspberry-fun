@@ -27,13 +27,13 @@ Sample programs for https://thepihut.com/products/ryanteck-snowpi-the-gpio-snowm
 * wiggle.py - Rapidly alternates left and right sides, and blinks eyes even faster
 * spin.py - Spins body LEDs while toggling eyes and nose
 
-Class Snowman lays out all the I/O devices on the board/
+Class Snowman lays out all the I/O devices on the board.
 
 ## Fish Dish
 
 Sample programs for https://thepihut.com/products/fish-dish-gpio-led-buzzer-board
-* fishtest.sh - Test program from https://pastebin.com/8cnxXRNT
-* fishbump.sh - Binks LEDs in a pattern that changes when you push the button
+* fishtest.py - Test program from https://pastebin.com/8cnxXRNT
+* fishbump.py - Binks LEDs in a pattern that changes when you push the button
 
 ## Services to run Christmas Tree and Snowman sample programs
 
