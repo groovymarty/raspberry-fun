@@ -8,6 +8,8 @@ Here are the commands to install fun stuff on your Raspberry Pi:
 
 ## Christmas Tree
 
+![Christmas Tree](tree.jpg)
+
 Sample programs for https://thepihut.com/products/christmas-tree-programmable-kit
 * sparkle.py - Randomly toggles all LEDs on tree
 * glow.py - Uses PWM to glow LEDs on and off, filling tree from bottom to top
@@ -22,6 +24,8 @@ Here are the commmands to install Programmable-Xmas-Tree (optional):
 
 ## Snowman
 
+![Snowman](snowman.jpg)
+
 Sample programs for https://thepihut.com/products/ryanteck-snowpi-the-gpio-snowman-for-raspberry-pi
 * snowtest.py - Test program from https://thepihut.com/blogs/raspberry-pi-tutorials/ryanteck-snowpi-test-program
 * wiggle.py - Rapidly alternates left and right sides, and blinks eyes even faster
@@ -30,6 +34,8 @@ Sample programs for https://thepihut.com/products/ryanteck-snowpi-the-gpio-snowm
 Class Snowman lays out all the I/O devices on the board.
 
 ## Fish Dish
+
+![Fish Dish](fishdish.jpg)
 
 Sample programs for https://thepihut.com/products/fish-dish-gpio-led-buzzer-board
 * fishtest.py - Test program from https://pastebin.com/8cnxXRNT
