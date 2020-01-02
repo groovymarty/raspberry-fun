@@ -10,7 +10,7 @@ Here are the commands to install fun stuff on your Raspberry Pi:
 
 ## Christmas Tree
 
-![Christmas Tree](https://groovymarty.com/pic/D19Z-360A)
+![Christmas Tree](https://groovymarty.com/gvypics/pic/D19Z-360A?sz=md)
 
 Sample programs for https://thepihut.com/products/christmas-tree-programmable-kit
 * sparkle.py - Randomly toggles all LEDs on tree
@@ -26,7 +26,7 @@ Here are the commmands to install Programmable-Xmas-Tree (optional):
 
 ## Snowman
 
-![Snowman](https://groovymarty.com/pic/D19Z-370A)
+![Snowman](https://groovymarty.com/gvypics/pic/D19Z-370A?sz=md)
 
 Sample programs for https://thepihut.com/products/ryanteck-snowpi-the-gpio-snowman-for-raspberry-pi
 * snowtest.py - Test program from https://thepihut.com/blogs/raspberry-pi-tutorials/ryanteck-snowpi-test-program
@@ -37,7 +37,7 @@ Class Snowman lays out all the I/O devices on the board.
 
 ## Fish Dish
 
-![Fish Dish](https://groovymarty.com/pic/D19Z-330A)
+![Fish Dish](https://groovymarty.com/gvypics/pic/D19Z-330A?sz=md)
 
 Sample programs for https://thepihut.com/products/fish-dish-gpio-led-buzzer-board
 * fishtest.py - Test program from https://pastebin.com/8cnxXRNT
